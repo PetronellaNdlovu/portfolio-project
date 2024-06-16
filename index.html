@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-
+    <meta name="description" content="Petronella is a front end developer based in Johannesburg" />
+    <title>Front end developer - portfolio PN</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -28,15 +28,17 @@
       src="https://kit.fontawesome.com/ddc3ee268a.js"
       crossorigin="anonymous"
     ></script>
+  </head>
   <body>
     <div class="container">
     <nav class="d-flex justify-content-between"> 
-    <img src="images/logo.png" class="logo" alt=""/>
+    <img src="images/logo.png" class="logo d-none d-md-block" alt="Petronella logo"/>
     <ul>
-      <li> <a href="/index.html">Home</a></li>
-      <li> <a href="/about.html">About</a></li>
-      <li> <a href="work.html">Work</a></li>
-      <li> <a href="/contact.html">Contact</a></li>
+      <li class="active"> 
+        <a href="/index.html" title="Homepage">Home</a></li>
+      <li> <a href="/about.html" title="About Petronella"> About </a></li>
+      <li> <a href="work.html" title="Petronella's work">Work</a></li>
+      <li> <a href="/contact.html" title="Petronella's contact">Contact</a></li>
     </ul>
      </nav>
     </div>
@@ -45,7 +47,7 @@
       <p>👋 Hello, I am</p>
       <h1>Petronella Ndlovu</h1>
       <h2 class="mb-5">Front-end developer based in Johannesburg, South Africa</h2>
-      <a href="#" class="btn btn-primary">Contact me</a>
+      <a href="/contact.html" class="btn btn-primary" title="contact me">Contact me</a>
     </div>
     
     <p class="text-center m-5">
@@ -54,7 +56,7 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/yogurt.png" class="img-fluid" alt="" />
+          <img src="images/yogurt.png" class="img-fluid" alt="Yogurt Project" />
         </div>
         <div class="col">
           <div class="project-desciption">
@@ -65,7 +67,7 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline"> Learn more </a>
           </div>
         </div>
       </div>
@@ -79,16 +81,16 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline"> Learn more </a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather.png" class="img-fluid" alt="" />
+          <img src="images/weather.png" class="img-fluid" alt="Wether Project" />
         </div>
       </div>
       <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="images/dictionary.png" class="img-fluid" alt="" />
+          <img src="images/dictionary.png" class="img-fluid" alt="Dictionary Preview" />
         </div>
         <div class="col">
           <div class="project-desciption">
@@ -99,7 +101,7 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline"> Learn more </a>
           </div>
         </div>
       </div>
@@ -112,28 +114,29 @@
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3"> Contact me </a>
+            <a href="/contact.html" class="btn btn-branding mt-3" title="Contact Petronella"> Contact me </a>
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:petronellandlovu5@gmail.com" class="email-link">
+          <a href="mailto:petronellandlovu5@gmail.com" class="email-link" title="Email Petronella">
             petronellandlovu5@gmail.com
           </a>
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.github.com/petronellandlovu5" target="_blank">
+          <a href="https://www.github.com/petronellandlovu5" target="_blank" title="Github Profile">
             <i class="fab fa-github"></i>
           </a>
-          <a href="https://www.instragram.com/petronellandlovu5" target="_blank">
+          <a href="https://www.instragram.com/petronellandlovu5" target="_blank" title="Instagram Profile">
             <i class="fab fa-instagram"></i>
           </a>
-          <a href="https://www.twitter.com/petronellandlovu5" target="_blank">
+          <a href="https://www.twitter.com/petronellandlovu5" target="_blank" title="Twitter Profile">
             <i class="fab fa-twitter"></i>
           </a>
         </div>
+        <p class="text-center mt-5">
+  ✌️This project was coded by SheCodes, and it is <a href="https://github.com/petronellandlovu/portfolio-project" target=" Github Link"></a> open sourced
+        </p>
       </footer>
     </div>
-  </body>
-</html>
   </body>
 </html>
